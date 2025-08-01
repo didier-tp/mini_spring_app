@@ -1,0 +1,21 @@
+mini_spring_app à créér via spring_initializr avec java21 , spring-mvc (et éventuellement h2 et spring data jpa)
+server.port=8181 dans application.properties
+
+System.out.println("http://localhost:8181"); dans ...Application.java
+
+import org.junit.jupiter.api.Assertions;
+et Assertions.assertTrue(…); dans classe de @Test
+
+
+src/main/resources/static/index.html
+avec
+<html>
+  <body>mini_spring</body>
+</html>
+
+===========
+init git en local
+-----------
+création du référentiel GitHub : https://github.com/didier-tp/mini_spring_app
+------
+et en local , rattachement au référentiel et premier git push
