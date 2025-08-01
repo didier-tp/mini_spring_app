@@ -1,0 +1,9 @@
+item "mini_spring_app" de type "pipeline"
+avec trigger/scrutation_git 
+*/1 8-20 * * 1-5
+
+et
+Pipeline from SCM
+SCM/GIT
+   https://github.com/didier-tp/mini_spring_app
+   branch:  */main
