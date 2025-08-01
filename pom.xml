@@ -52,6 +52,7 @@
 	</dependencies>
 
 	<build>
+	    <finalName>mini_spring_app</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
