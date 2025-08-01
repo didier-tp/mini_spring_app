@@ -6,10 +6,10 @@ FROM openjdk:21
 WORKDIR /usr/app
 
 
-COPY  target/appliSpringWeb.jar  ./
+COPY  target/mini_spring_app.jar  ./
 
 #optimisation possible : https://spring.io/guides/topicals/spring-boot-docker
 
 EXPOSE 8181
 
-CMD ["java","-jar","appliSpringWeb.jar" ]
+CMD ["java","-jar","mini_spring_app.jar" ]
