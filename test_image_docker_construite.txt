@@ -1,0 +1,6 @@
+
+docker image ls | grep spring
+
+docker container run --name mini_spring_container -p 8181:8181 didierdefrance69/mini_spring_app:1
+
+http://localhost:8181 dans un navigateur web
