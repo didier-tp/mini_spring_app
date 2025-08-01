@@ -16,7 +16,7 @@ public class TestCalculService {
 	public void testMoyenne() {
 		double resMoyenne = calculService.moyenne(5, 7);
 		System.out.println("moyenne de 5 et 7 = " + resMoyenne);
-		assertEquals(11,resMoyenne,0.00001);
+		assertEquals(6,resMoyenne,0.00001);
 	}
 
 }
